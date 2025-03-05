@@ -1,0 +1,673 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Chivo", sans-serif;
+}
+#nav1 {
+  background-color: #32404d;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4vw;
+  align-items: center;
+}
+#p1,
+#p2 {
+  display: inline;
+}
+
+#nav2 {
+  background-color: #fff;
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  z-index: 4;
+  top: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+#icon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 12%;
+}
+.logo img {
+  width: 10vw;
+}
+
+#links {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+#icon img {
+  width: 2vw;
+}
+#background {
+  width: 100%;
+}
+#text-on-img {
+  position: absolute;
+  z-index: 0;
+  top: 20vw;
+  left: 15vw;
+}
+a {
+  text-decoration: none;
+}
+#learn {
+  color: #fff;
+  border-bottom: solid 0.1vw #fff;
+  padding-bottom: 0.5vw;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.3vw;
+}
+#learn:hover {
+  transform: scale(1.05);
+  background-color: transparent;
+}
+#button {
+  background-color: #007a5c;
+  color: #fff;
+  font-size: 1.2vw;
+  border: none;
+  width: 14vw;
+  height: 4vw;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+#button:hover {
+  transform: scale(1.05);
+  border: solid 0.1vw #fff;
+  background-color: transparent;
+}
+#p1 {
+  color: #00b78a;
+  font-weight: 500;
+  font-family: "Chivo", sans-serif;
+  font-size: 1.5vw;
+}
+#p2 {
+  color: #e4e8f2;
+  font-family: "Chivo", sans-serif;
+  font-size: 1.5vw;
+}
+.link {
+  color: #32404d;
+  font-family: "Chivo", sans-serif;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.5vw;
+}
+.link:hover {
+  transform: scale(1.05);
+  color: #007a5c;
+  background-color: transparent;
+}
+#education-word {
+  color: #fff;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+.line2 {
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  line-height: 0.1;
+  color: #fff;
+  font-size: 2vw;
+}
+.lorem {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Chivo", sans-serif;
+  line-height: 0.3;
+  font-size: 1.2vw;
+}
+#facebook {
+  transition: all 0.5s ease-in-out;
+}
+#facebook:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+}
+#linkedin {
+  transition: all 0.5s ease-in-out;
+}
+#linkedin:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+}
+#twitter {
+  transition: all 0.5s ease-in-out;
+}
+#twitter:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+}
+#youtube {
+  transition: all 0.5s ease-in-out;
+}
+#youtube:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+}
+#back2 {
+  height: 50vw;
+  background-color: #fcf2eb;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -1vw;
+}
+#woman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#woman img {
+  height: 60%;
+}
+.text1-onImg {
+  color: #32404d;
+  font-size: 2.2vw;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Chivo", sans-serif;
+  margin: 0;
+}
+.lorem2 {
+  color: #777777;
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1;
+  font-family: "Chivo", sans-serif;
+}
+.lorem3 {
+  color: #777777;
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1;
+  font-family: "Chivo", sans-serif;
+}
+#learn2 {
+  color: #007a5c;
+  border-bottom: solid 0.1vw #007a5c;
+  padding-bottom: 0.5vw;
+  transition: all 0.5s ease-in-out;
+  width: max-content;
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-style: normal;
+}
+#learn2:hover {
+  transform: scale(1.05);
+}
+#text2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+}
+#back3 {
+  height: 65vw;
+  background-color: #fff;
+}
+#program {
+  text-align: center;
+  color: #32404d;
+  display: block;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: "Chivo", sans-serif;
+  font-size: 3vw;
+  margin: 0;
+  margin-top: 7vw;
+}
+#lorem4 {
+  text-align: center;
+  color: #777777;
+  font-size: 2vw;
+  width: 70%;
+  line-height: 1.8vw;
+}
+
+#blogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3vw;
+}
+#blog1,
+#blog2 {
+  width: 97%;
+}
+
+.blog11 {
+  width: 45%;
+  display: flex;
+  border: solid 1px #d9e2e9;
+  padding: 1vw;
+
+  flex-direction: column;
+}
+#word3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#img-blog2 {
+  display: flex;
+  justify-content: center;
+}
+#img-blog1 {
+  display: flex;
+  justify-content: center;
+}
+#learn3 {
+  color: #007a5c;
+  border-bottom: solid 0.1vw #007a5c;
+  padding-bottom: 0.5vw;
+  transition: all 0.5s ease-in-out;
+  width: max-content;
+  font-size: 1.2vw;
+  font-weight: 100;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-style: normal;
+}
+#learn3:hover {
+  transform: scale(1.05);
+}
+#learn4 {
+  color: #007a5c;
+  border-bottom: solid 0.1vw #007a5c;
+  padding-bottom: 0.5vw;
+  transition: all 0.5s ease-in-out;
+  width: max-content;
+  font-size: 1.2vw;
+  font-weight: 100;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-style: normal;
+}
+#learn4:hover {
+  transform: scale(1.05);
+}
+.faculty {
+  color: #32404d;
+  font-weight: 600;
+  font-size: 2.3vw;
+}
+.lorem5 {
+  font-family: "Chivo", sans-serif;
+  font-size: 1.2vw;
+  color: #5d646a;
+}
+#img-blog1 {
+  transition: all 0.5s ease-in-out;
+}
+#img-blog1:hover {
+  transform: scale(1.04);
+}
+#img-blog2 {
+  transition: all 0.5s ease-in-out;
+}
+#img-blog2:hover {
+  transform: scale(1.04);
+}
+.blog11 {
+  transition: all 0.3s ease-in-out;
+}
+.blog11:hover {
+  transform: scale(1.04);
+  border: solid 1px #007a5c;
+}
+#back4 {
+  border-color: #f2fbf9;
+  display: flex;
+}
+#woman2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+#woman2 img {
+  width: 45vw;
+}
+#tt {
+  display: flex;
+  margin-left: 2vw;
+  flex-direction: column;
+}
+#tt1 {
+  color: #32404d;
+  font-family: "Chivo", sans-serif;
+  font-size: 3vw;
+  font-weight: 900;
+  margin: 0;
+  /* margin-right: 15vw; */
+}
+#tt2 {
+  color: #777777;
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.2vw;
+}
+#m {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: start;
+}
+.icon33 {
+  width: 3vw;
+}
+.icon33:hover {
+  transform: scale(1.09);
+}
+
+#d {
+  display: flex;
+  gap: 0.7vw;
+  flex-direction: column;
+}
+#f {
+  font-size: 2.3vw;
+  font-family: sans-serif;
+}
+#s {
+  font-size: 2.3vw;
+  font-family: sans-serif;
+}
+#m1 {
+  border: 1px solid rgba(93, 100, 106, 0.2);
+  transition: all 0.3s ease-in-out;
+  padding: 2vw;
+  width: 90%;
+  transition: all 0.3s ease-in-out;
+}
+
+#m2 {
+  border: 1px solid rgba(93, 100, 106, 0.2);
+  padding: 2vw;
+  width: 90%;
+  transition: all 0.3s ease-in-out;
+}
+#m1:hover,
+#m2:hover {
+  background: rgba(0, 122, 92, 0.08);
+  border: 1px solid transparent;
+  transform: scale(1.04);
+}
+#back5 {
+  margin-top: 8vw;
+  margin-bottom: 5vw;
+}
+#top {
+  color: #32404d;
+  font-weight: 900;
+  line-height: 1.2;
+  display: block;
+  font-size: 3vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 2vw;
+}
+#ph {
+  display: flex;
+  flex-direction: row;
+  gap: 1.1vw;
+  justify-content: center;
+  margin-top: 2vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+#wom3 {
+  width: 29vw;
+}
+#wom4 {
+  width: 29vw;
+}
+#wom5 {
+  width: 29vw;
+}
+.w {
+  color: #007a5c;
+  line-height: 1.8vw;
+  font-size: 1.2vw;
+  width: 29vw;
+}
+.pp {
+  border: 1px solid rgba(93, 100, 106, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5vw;
+  transition: all 0.3s ease-in-out;
+}
+.pp:hover {
+  border: 1px solid transparent;
+  transform: scale(1.04);
+}
+#learn5 {
+  color: #007a5c;
+  border-bottom: solid 0.1vw #007a5c;
+  padding-bottom: 0.5vw;
+  transition: all 0.5s ease-in-out;
+  /* width: max-content; */
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-style: normal;
+}
+#learn5:hover {
+  transform: scale(1.05);
+}
+.h {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70vw;
+}
+#hr3 {
+  border: 1px solid #dee2e6 !important;
+  margin-bottom: 7vw;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+#content1 {
+  width: 50%;
+  background-color: #fff6ee;
+}
+#content2 {
+  width: 50%;
+  background-color: #007a5c;
+}
+#im3 {
+  margin: 5vw 10vw 5vw 10vw;
+  width: 75%;
+}
+#w1 {
+  color: white;
+  display: block;
+  font-size: 2.5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 1.5vw;
+  margin-top: 5vw;
+}
+#w2 {
+  color: white;
+  display: block;
+  font-size: 2.7vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 1.5vw;
+}
+#w3 {
+  color: white;
+  display: block;
+  margin-top: 2vw;
+  margin-left: 1.5vw;
+  font-size: 1.3vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#w4 {
+  color: white;
+  display: block;
+  margin-top: 1.5vw;
+  margin-left: 1.5vw;
+  font-size: 1.3vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#join3 {
+  display: block;
+  color: white;
+  margin-left: 1.5vw;
+  margin-top: 6vw;
+  border-bottom: solid 0.1vw white;
+  padding-bottom: 0.5vw;
+  transition: all 0.5s ease-in-out;
+  width: max-content;
+  font-size: 1.2vw;
+  font-weight: 100;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-style: normal;
+}
+#join3:hover {
+  transform: scale(1.05);
+}
+
+#more-stories {
+  color: #007a5c;
+  border-bottom: solid 0.1vw #007a5c;
+  /* padding-bottom: 0.5vw; */
+  transition: all 0.5s ease-in-out;
+  /* width: max-content; */
+  font-size: 1.2vw;
+  font-weight: 100;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-style: normal;
+  height: max-content;
+  width: max-content;
+}
+#more-stories:hover {
+  transform: scale(1.05);
+}
+.description {
+  font-size: 1.5vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.lin {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  padding-top: 1.8vw;
+}
+
+.fot {
+  color: #a7aeb4;
+  font-size: 0.9vw;
+  transition: all 0.5s;
+}
+.fot:hover {
+  color: #007a5c;
+  border-bottom: #007a5c solid 1px;
+  width: max-content;
+}
+.quick {
+  color: white;
+  font-family: Chivo, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+.footer {
+  background-color: #32404d;
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  padding-top: 6vw;
+  justify-content: center;
+}
+#img44 img {
+  width: 9vw;
+}
+.em {
+  width: 15vw;
+  height: 2.3vw;
+  border-radius: 0px;
+  border: none;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+
+  font-size: 0.9vw;
+  padding: 0 0.8vw;
+  line-height: 2.3vw;
+}
+.em::placeholder {
+  font-size: 0.9vw;
+  line-height: 2.3vw;
+}
+.btn {
+  background-color: #007a5c;
+  border: none;
+  cursor: pointer;
+  width: 3vw;
+  height: 2.3vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.in {
+  display: flex;
+  flex-direction: row;
+}
+.btn img {
+  width: 40%;
+  height: 40%;
+  display: block;
+}
+.em:focus {
+  border: none;
+  outline: none;
+}
+
+.icon333 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 3vw;
+  padding-top: 2vw;
+  gap: 0.4vw;
+}
+.icon333 img {
+  width: 50%;
+  height: 50%;
+  transition: all 0.4s;
+}
+.icon333 img:hover {
+  transform: scale(1.09);
+}
+#you {
+  width: 60%;
+  height: 65%;
+  margin-top: -0.2vw;
+}
